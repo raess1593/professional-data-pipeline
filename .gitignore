@@ -1,1 +1,10 @@
+# Environment
 .env
+
+# Python
+__pycache__/
+*.venv
+
+# Data
+data/
+*.csv
