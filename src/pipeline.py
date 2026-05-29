@@ -9,8 +9,8 @@ import numpy as np
 import pandas as pd
 from dagster import AssetCheckResult, AssetCheckSeverity, Output, asset, asset_check
 from dotenv import load_dotenv
-from evidently.suite import TestSuite
-from evidently.tests import TestColumnDrift
+from evidently.legacy.test_suite import TestSuite
+from evidently.legacy.tests import TestColumnDrift
 
 load_dotenv()
 
