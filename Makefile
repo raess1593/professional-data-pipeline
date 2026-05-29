@@ -1,5 +1,5 @@
 .PHONY: lint
 
 lint:
-	isort src
-	black src
+	uv run isort src
+	uv run black src
